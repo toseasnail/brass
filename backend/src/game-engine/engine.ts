@@ -1,4 +1,5 @@
-mport { Server } from 'socket.io'
+// 파일: backend/src/game-engine/engine.ts
+import { Server } from 'socket.io'
 import {
   GameState,
   Player,
@@ -279,3 +280,4 @@ export class GameEngine {
     })
   }
 }
+      
